@@ -7,5 +7,5 @@ In this project, i'm gonna use multiple libraries which i research and apply the
 - Dapper
 - Mapster
 - Polly
+- NLog
 - Swashbuckle
-- ...
