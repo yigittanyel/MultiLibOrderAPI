@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2/CSGNb9hGjWSFWirysp1+8Xy7q+2m9AETyO0PbjEN5QhGh9XLH6lCnkJ9+DA+8DaeXryja8XIRck8A7mlnv7A==",
+  "dgSpecHash": "8hS/Lzwu1ew2a8DyF+HFAI3wm3iCpJ9ObiTm9VD2n5On8RTLmgbhOptx0LyAklWKpLH1Wb8HVG5FQYGw6I0z+Q==",
   "success": true,
   "projectFilePath": "D:\\TrialProjects\\MultiLibrary\\MultiLLibray.API\\MultiLLibray.API\\MultiLLibray.API.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,10 @@
     "C:\\Users\\yigittanyel\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\yigittanyel\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\yigittanyel\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\yigittanyel\\.nuget\\packages\\nlog\\5.2.0\\nlog.5.2.0.nupkg.sha512",
+    "C:\\Users\\yigittanyel\\.nuget\\packages\\nlog.extensions.logging\\5.3.0\\nlog.extensions.logging.5.3.0.nupkg.sha512",
+    "C:\\Users\\yigittanyel\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.0\\nlog.web.aspnetcore.5.3.0.nupkg.sha512",
+    "C:\\Users\\yigittanyel\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\yigittanyel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\yigittanyel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\yigittanyel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

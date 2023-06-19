@@ -77,3 +77,8 @@ D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\obj\Debug\net7.0
 D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\obj\Debug\net7.0\ref\MultiLLibray.API.dll
 D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Mapster.dll
 D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Mapster.Core.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\nlog.config
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\NLog.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Polly.dll

@@ -1,0 +1,62 @@
+# Compiled output
+bin/
+obj/
+
+# Dependency directories
+packages/
+node_modules/
+
+# IDE files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Logs
+logs/
+*.log
+
+# NuGet
+*.nuget.cache
+*.dll
+*.exe
+
+# User secrets
+secrets.json
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+
+# Test files
+*.testsettings
+*.testhost
+
+
+# Visual Studio files
+.vs/
+
+
+# User-specific files
+*.user
+
+# NLog internal logs
+internal_logs/
