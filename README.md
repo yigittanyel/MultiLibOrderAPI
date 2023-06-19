@@ -2,7 +2,7 @@
 
 In this project, i'm gonna use multiple libraries which i research and apply them in a real life scenario. Project type is a .Net 7 Web Api. 
 
-### Using Libraries
+### Tech Stack
 - EF Core
 - Dapper
 - Mapster
@@ -10,7 +10,9 @@ In this project, i'm gonna use multiple libraries which i research and apply the
 - NLog
 - Swashbuckle
 - Benchmark
-- 
+- ElasticSearch
+- Redis
+
 <hr>
 
 For 20.540 records, benchmark results like this :
