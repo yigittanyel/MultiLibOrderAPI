@@ -6,6 +6,11 @@ namespace MultiLLibray.API.Repositories;
 
 public class OrderRepository
 {
+    public OrderRepository()
+    {
+        
+    }
+
     private readonly string _connectionString;
 
     public OrderRepository(string connectionString)
@@ -38,10 +43,11 @@ public class OrderRepository
         using (var connection = new SqlConnection(_connectionString))
         {
             connection.Open();
-            string query = "INSERT INTO Orders (CustomerName, OrderDate) VALUES (@CustomerName, @OrderDate)";
+            string query = "INSERT INTO Orders (ProductName, Quantity, TotalPrice) VALUES (@ProductName, @Quantity, @TotalPrice)";
             connection.Execute(query, order);
         }
     }
+
 
     // Diğer CRUD işlemleri buraya eklenebilir
 }

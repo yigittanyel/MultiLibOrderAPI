@@ -1,4 +1,5 @@
-﻿using Mapster;
+﻿using BenchmarkDotNet.Attributes;
+using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MultiLLibray.API.Context;
@@ -62,6 +63,29 @@ namespace MultiLLibray.API.Controllers
                 return StatusCode(500, "Bir hata oluştu.");
             }
         }
+
+        [HttpPost("[action]")]
+        public IActionResult CreateOrderDapper(OrderCreateDto orderDto)
+        {
+            try
+            {
+                retryPolicy.Execute(() =>
+                {
+                    Order order = _orderMapper.Map(orderDto);
+                    _orderRepository.CreateOrder(order);
+
+                });
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                var logger = NLog.LogManager.GetCurrentClassLogger();
+                logger.Error(ex, "CreateOrder metodu içinde bir hata oluştu.");
+                return StatusCode(500, "Bir hata oluştu.");
+            }
+        }
+
 
 
         [HttpPost("[action]")]
