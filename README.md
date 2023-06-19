@@ -9,3 +9,10 @@ In this project, i'm gonna use multiple libraries which i research and apply the
 - Polly
 - NLog
 - Swashbuckle
+- Benchmark
+- 
+<hr>
+
+For 20.540 records, benchmark results like this :
+![image](https://github.com/yigittanyel/MultiLibOrderAPI/assets/61347219/45271734-54b4-4c22-a9e6-9e3fac215a61)
+
