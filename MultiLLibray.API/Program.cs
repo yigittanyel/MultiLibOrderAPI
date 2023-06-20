@@ -1,11 +1,19 @@
+using BenchmarkDotNet.Configs;
+using Mapster;
+using MapsterMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using MultiLLibray.API;
 using MultiLLibray.API.Context;
+using MultiLLibray.API.Extensions;
 using MultiLLibray.API.Logger;
 using MultiLLibray.API.MapperProfiles;
 using MultiLLibray.API.Middlewares;
 using MultiLLibray.API.Repositories;
 using NLog;
 using NLog.Extensions.Logging;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,9 +43,28 @@ builder.Services.AddLogging(loggingBuilder =>
 builder.Services.AddSingleton<ILoggerService, LoggerService>();
 #endregion
 
+#region redis
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSingleton<RedisCacheHelper>();
+#endregion
 
-builder.Services.AddDbContext<ApplicationDbContext>
-    (c => c.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+#region jwt bearer
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+#endregion
 
 builder.Services.AddScoped<OrderRepository>(provider =>
 {
@@ -46,6 +73,10 @@ builder.Services.AddScoped<OrderRepository>(provider =>
 });
 
 builder.Services.AddSingleton<OrderMapperProfile>();
+builder.Services.AddSingleton<UserMapperProfile>();
+
+builder.Services.AddDbContext<ApplicationDbContext>(c => c.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 
@@ -60,6 +91,7 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<ExceptionMiddleware>();
 #endregion
 
+app.UseAuthentication();
 
 app.UseHttpsRedirection();
 

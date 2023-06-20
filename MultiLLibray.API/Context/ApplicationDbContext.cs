@@ -3,7 +3,7 @@ using MultiLLibray.API.Models;
 
 namespace MultiLLibray.API.Context
 {
-    public class ApplicationDbContext:DbContext
+    public sealed class ApplicationDbContext:DbContext
     {
         public ApplicationDbContext()
         {
@@ -14,6 +14,7 @@ namespace MultiLLibray.API.Context
             
         }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

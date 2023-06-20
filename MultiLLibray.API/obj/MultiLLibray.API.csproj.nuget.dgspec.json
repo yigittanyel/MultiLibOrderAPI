@@ -49,9 +49,17 @@
               "target": "Package",
               "version": "[2.0.138, )"
             },
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
             "Mapster": {
               "target": "Package",
               "version": "[7.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -79,9 +87,17 @@
               "target": "Package",
               "version": "[5.3.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[7.2.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.116, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -24,7 +24,7 @@ public class OrderRepository
         {
             connection.Open();
             string query = "SELECT * FROM Orders";
-            return connection.Query<Order>(query).ToList();
+            return connection.Query<Order>(query).Take(25).ToList();
         }
     }
 
@@ -47,8 +47,5 @@ public class OrderRepository
             connection.Execute(query, order);
         }
     }
-
-
-    // Diğer CRUD işlemleri buraya eklenebilir
 }
 

@@ -2,7 +2,6 @@
 using MultiLLibray.API.DTOs;
 using MultiLLibray.API.Models;
 
-
 namespace MultiLLibray.API.MapperProfiles;
 public class OrderMapperProfile
 {
@@ -17,5 +16,20 @@ public class OrderMapperProfile
     public Order Map(OrderCreateDto orderDto)
     {
         return orderDto.Adapt<Order>();
+    }
+}
+
+public class UserMapperProfile
+{
+    public UserMapperProfile()
+    {
+        TypeAdapterConfig<UserDto, User>.NewConfig()
+            .Map(dest => dest.Username, src => src.username)
+            .Map(dest => dest.Password, src => src.password);
+    }
+
+    public User Map(UserDto userDto)
+    {
+        return userDto.Adapt<User>();
     }
 }

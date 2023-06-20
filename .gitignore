@@ -60,3 +60,7 @@ _ReSharper*/
 
 # NLog internal logs
 internal_logs/
+
+# App Settings
+appsettings.json
+appsettings.Development.json
