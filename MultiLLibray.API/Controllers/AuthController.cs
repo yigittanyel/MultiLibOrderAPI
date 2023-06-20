@@ -32,10 +32,10 @@ namespace MultiLLibray.API.Controllers
             User user= _userMapper.Map(userDto);
             user = await _context.Users.FirstOrDefaultAsync(x=>x.Username==userDto.username);
 
-            if (user != null && VerifyPassword(userDto.password, user.Password))
+            if (user is not null && VerifyPassword(userDto.password, user.Password) is true)
             {
                 var token = GenerateToken(user.Username);
-                return Ok(new { Token = token });
+                return Ok(new { Token = token });  
             }
 
             return Unauthorized();
@@ -48,7 +48,7 @@ namespace MultiLLibray.API.Controllers
 
         private string GenerateToken(string username)
         {
-            var claims = new[]
+            var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, username)
             };
@@ -56,14 +56,17 @@ namespace MultiLLibray.API.Controllers
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var token = new JwtSecurityToken(
-                _configuration["Jwt:Issuer"],
-                _configuration["Jwt:Issuer"],
-                claims,
+            var tokenOptions = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
                 expires: DateTime.Now.AddMinutes(30),
                 signingCredentials: credentials);
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            var token = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+
+            return token;
         }
+
     }
 }

@@ -150,3 +150,8 @@ D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0
 D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\runtimes\win-x64\native\capstone.dll
 D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\runtimes\win-x86\native\capstone.dll
 D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Management.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Elasticsearch.Net.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\StackExchange.Redis.dll
+D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
