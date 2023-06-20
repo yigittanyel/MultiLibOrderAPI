@@ -12,6 +12,8 @@ In this project, i'm gonna use multiple libraries which i research and apply the
 - Benchmark
 - ElasticSearch
 - Redis
+- JWT Bearer
+- Basic Authentication
 
 <hr>
 
