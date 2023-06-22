@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 
-namespace MultiLLibray.API;
+namespace MultiLLibray.API.Extensions;
 
 public class RedisCacheHelper
 {
@@ -23,7 +23,7 @@ public class RedisCacheHelper
             return JsonConvert.DeserializeObject<T>(cachedData);
         }
 
-        return default(T);
+        return default;
     }
 
     public async Task SetCacheValueAsync<T>(string key, T value, TimeSpan expiration)

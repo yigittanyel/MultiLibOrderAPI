@@ -1,0 +1,1274 @@
+2023-06-22 09:06:57.6886 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 09:06:57.9524 DEBUG Hosting starting
+2023-06-22 09:06:58.1061 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 09:06:58.1312 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 09:06:58.1312 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 09:06:58.1509 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 09:06:58.1640 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 09:06:58.1751 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 09:06:58.1751 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:06:58.1751 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 09:06:58.1912 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:06:58.1912 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 09:06:58.1912 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 09:06:58.1912 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 09:06:58.1912 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 09:06:58.8105 INFO Now listening on: https://localhost:7211
+2023-06-22 09:06:58.8105 INFO Now listening on: http://localhost:5140
+2023-06-22 09:06:58.8105 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 09:06:58.8105 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 09:06:58.8105 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 09:06:58.8105 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 09:06:58.8105 INFO Hosting environment: Development
+2023-06-22 09:06:58.8105 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 09:06:58.8105 DEBUG Hosting started
+2023-06-22 09:06:59.0858 DEBUG Connection id "0HMRISRHQPF7F" accepted.
+2023-06-22 09:06:59.0858 DEBUG Connection id "0HMRISRHQPF7E" accepted.
+2023-06-22 09:06:59.0858 DEBUG Connection id "0HMRISRHQPF7F" started.
+2023-06-22 09:06:59.0858 DEBUG Connection id "0HMRISRHQPF7E" started.
+2023-06-22 09:07:00.6332 DEBUG Connection id "0HMRISRHQPF7G" accepted.
+2023-06-22 09:07:00.6332 DEBUG Connection id "0HMRISRHQPF7G" started.
+2023-06-22 09:07:00.7260 DEBUG Connection 0HMRISRHQPF7G established using the following protocol: Tls13
+2023-06-22 09:07:00.8579 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 09:07:00.9099 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 09:07:00.9450 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 09:07:00.9450 DEBUG Request did not match any endpoints
+2023-06-22 09:07:01.1151 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 09:07:01.3791 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 09:07:01.3836 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 527.7720ms
+2023-06-22 09:07:01.4281 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:07:01.4398 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 11.5116ms
+2023-06-22 09:07:01.5340 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 09:07:01.7042 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 169.8928ms
+2023-06-22 09:07:01.9682 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 09:07:01.9682 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 09:07:01.9682 DEBUG Request did not match any endpoints
+2023-06-22 09:07:02.0283 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/favicon-32x32.png - -
+2023-06-22 09:07:02.0283 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-06-22 09:07:02.0283 DEBUG Request did not match any endpoints
+2023-06-22 09:07:02.0523 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-22 09:07:02.0523 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/favicon-32x32.png - - - 200 628 image/png 24.9339ms
+2023-06-22 09:07:02.1974 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 228.8164ms
+2023-06-22 09:07:04.6510 DEBUG Connection id "0HMRISRHQPF7G" received FIN.
+2023-06-22 09:07:04.6510 DEBUG The connection queue processing loop for 0HMRISRHQPF7G completed.
+2023-06-22 09:07:04.6556 DEBUG Connection id "0HMRISRHQPF7G" is closed. The last processed stream ID was 9.
+2023-06-22 09:07:04.6556 DEBUG Connection id "0HMRISRHQPF7G" sending FIN because: "The client closed the connection."
+2023-06-22 09:07:04.6556 DEBUG Connection id "0HMRISRHQPF7G" stopped.
+2023-06-22 09:07:09.1384 DEBUG Authentication of the HTTPS connection timed out.
+2023-06-22 09:07:09.1384 DEBUG Authentication of the HTTPS connection timed out.
+2023-06-22 09:07:09.1384 DEBUG Connection id "0HMRISRHQPF7E" stopped.
+2023-06-22 09:07:09.1384 DEBUG Connection id "0HMRISRHQPF7F" stopped.
+2023-06-22 09:07:09.1384 DEBUG Connection id "0HMRISRHQPF7F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:07:09.1384 DEBUG Connection id "0HMRISRHQPF7E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:07:16.2077 DEBUG Connection id "0HMRISRHQPF7H" accepted.
+2023-06-22 09:07:16.2077 DEBUG Connection id "0HMRISRHQPF7H" started.
+2023-06-22 09:07:16.2077 DEBUG Connection 0HMRISRHQPF7H established using the following protocol: Tls13
+2023-06-22 09:07:16.2077 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/loginwithjwt application/json 45
+2023-06-22 09:07:16.2235 DEBUG 1 candidate(s) found for the request path '/api/Auth/loginwithjwt'
+2023-06-22 09:07:16.2235 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)' with route pattern 'api/Auth/loginwithjwt' is valid for the request path '/api/Auth/loginwithjwt'
+2023-06-22 09:07:16.2235 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:07:16.2235 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 09:07:16.2981 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 09:07:16.2981 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:07:16.3231 INFO Route matched with {action = "LoginWithJwt", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginWithJwt(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 09:07:16.3326 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 09:07:16.3326 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 09:07:16.3326 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 09:07:16.3326 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 09:07:16.3326 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 09:07:16.3326 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 09:07:16.4605 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 09:07:16.5093 DEBUG Executed controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 09:07:16.5234 DEBUG Attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' ...
+2023-06-22 09:07:16.5234 DEBUG Attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' using the name '' in request data ...
+2023-06-22 09:07:16.5234 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-22 09:07:16.5234 DEBUG Connection id "0HMRISRHQPF7H", Request id "0HMRISRHQPF7H:00000001": started reading request body.
+2023-06-22 09:07:16.5234 DEBUG Connection id "0HMRISRHQPF7H", Request id "0HMRISRHQPF7H:00000001": done reading request body.
+2023-06-22 09:07:16.5234 DEBUG JSON input formatter succeeded, deserializing to type 'MultiLLibray.API.DTOs.UserDto'
+2023-06-22 09:07:16.5234 DEBUG Done attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+2023-06-22 09:07:16.5234 DEBUG Done attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+2023-06-22 09:07:16.5234 DEBUG Attempting to validate the bound parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' ...
+2023-06-22 09:07:16.5465 DEBUG Done attempting to validate the bound parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+2023-06-22 09:07:16.9330 DEBUG Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-22 09:07:16.9872 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(x => x.Username == __userDto_username_0)'
+2023-06-22 09:07:17.0826 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Password (string) Required, 1], [Property: User.Username (string) Required, 2] }
+            SELECT TOP(1) u.Id, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__userDto_username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        MultiLLibray.API.Context.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-22 09:07:17.1069 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-22 09:07:17.1069 DEBUG Creating DbConnection.
+2023-06-22 09:07:17.1332 DEBUG Created DbConnection. (23ms).
+2023-06-22 09:07:17.1332 DEBUG Created DbCommand for 'ExecuteReader' (32ms).
+2023-06-22 09:07:17.1332 DEBUG Initialized DbCommand for 'ExecuteReader' (40ms).
+2023-06-22 09:07:17.1487 DEBUG Opening connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:07:17.4071 DEBUG Opened connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:07:17.4127 DEBUG Executing DbCommand [Parameters=[@__userDto_username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userDto_username_0
+2023-06-22 09:07:17.4794 INFO Executed DbCommand (68ms) [Parameters=[@__userDto_username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userDto_username_0
+2023-06-22 09:07:17.5017 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-22 09:07:17.5144 DEBUG Closing data reader to 'MultiLibray' on server '.'.
+2023-06-22 09:07:17.5144 DEBUG A data reader for 'MultiLibray' on server '.' is being disposed after spending 36ms reading results.
+2023-06-22 09:07:17.5144 DEBUG Closing connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:07:17.5236 DEBUG Closed connection to database 'MultiLibray' on server '.' (3ms).
+2023-06-22 09:07:22.0931 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-22 09:07:22.0931 DEBUG No information found on request to perform content negotiation.
+2023-06-22 09:07:22.0931 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-22 09:07:22.0931 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-22 09:07:22.0931 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-22 09:07:22.0931 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-22 09:07:22.0931 INFO Executed action MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API) in 5760.4919ms
+2023-06-22 09:07:22.0931 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:07:22.1090 DEBUG 'ApplicationDbContext' disposed.
+2023-06-22 09:07:22.1090 DEBUG Disposing connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:07:22.1090 DEBUG Disposed connection to database '' on server '' (0ms).
+2023-06-22 09:07:22.1090 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/loginwithjwt application/json 45 - 200 - application/json;+charset=utf-8 5884.1102ms
+2023-06-22 09:07:24.7240 DEBUG Connection id "0HMRISRHQPF7H" received FIN.
+2023-06-22 09:07:24.7240 DEBUG Connection id "0HMRISRHQPF7H" is closed. The last processed stream ID was 1.
+2023-06-22 09:07:24.7240 DEBUG Connection id "0HMRISRHQPF7H" sending FIN because: "The client closed the connection."
+2023-06-22 09:07:24.7240 DEBUG The connection queue processing loop for 0HMRISRHQPF7H completed.
+2023-06-22 09:07:24.7240 DEBUG Connection id "0HMRISRHQPF7H" stopped.
+2023-06-22 09:37:11.2883 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 09:37:11.4577 DEBUG Hosting starting
+2023-06-22 09:37:11.5055 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 09:37:11.5183 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 09:37:11.5183 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 09:37:11.5183 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 09:37:11.5381 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 09:37:11.5381 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 09:37:11.5381 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:37:11.5490 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 09:37:11.5490 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:37:11.5490 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 09:37:11.5490 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 09:37:11.5490 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 09:37:11.5490 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 09:37:11.7838 INFO Now listening on: https://localhost:7211
+2023-06-22 09:37:11.7838 INFO Now listening on: http://localhost:5140
+2023-06-22 09:37:11.7838 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 09:37:11.7838 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 09:37:11.7838 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 09:37:11.7838 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 09:37:11.7838 INFO Hosting environment: Development
+2023-06-22 09:37:11.7838 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 09:37:11.7838 DEBUG Hosting started
+2023-06-22 09:37:11.8548 DEBUG Connection id "0HMRITCE2MPLQ" received FIN.
+2023-06-22 09:37:11.8548 DEBUG Connection id "0HMRITCE2MPLR" received FIN.
+2023-06-22 09:37:11.8548 DEBUG Connection id "0HMRITCE2MPLR" accepted.
+2023-06-22 09:37:11.8548 DEBUG Connection id "0HMRITCE2MPLQ" accepted.
+2023-06-22 09:37:11.8548 DEBUG Connection id "0HMRITCE2MPLQ" started.
+2023-06-22 09:37:11.8548 DEBUG Connection id "0HMRITCE2MPLR" started.
+2023-06-22 09:37:11.8800 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 09:37:11.8800 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 09:37:11.8800 DEBUG Connection id "0HMRITCE2MPLQ" stopped.
+2023-06-22 09:37:11.8800 DEBUG Connection id "0HMRITCE2MPLR" stopped.
+2023-06-22 09:37:11.8800 DEBUG Connection id "0HMRITCE2MPLQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:37:11.8800 DEBUG Connection id "0HMRITCE2MPLR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:37:12.5216 DEBUG Connection id "0HMRITCE2MPLS" accepted.
+2023-06-22 09:37:12.5216 DEBUG Connection id "0HMRITCE2MPLS" started.
+2023-06-22 09:37:12.5691 DEBUG Connection 0HMRITCE2MPLS established using the following protocol: Tls13
+2023-06-22 09:37:12.6580 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 09:37:12.6901 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 09:37:12.7234 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 09:37:12.7234 DEBUG Request did not match any endpoints
+2023-06-22 09:37:12.8302 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 09:37:12.9122 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 09:37:12.9122 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 258.6246ms
+2023-06-22 09:37:12.9470 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:37:12.9470 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 09:37:12.9577 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.5566ms
+2023-06-22 09:37:13.0183 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.0557ms
+2023-06-22 09:37:13.1145 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 09:37:13.1145 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 09:37:13.1145 DEBUG Request did not match any endpoints
+2023-06-22 09:37:13.2555 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.9670ms
+2023-06-22 09:37:45.8635 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/loginwithbasicauth?baseUrl=https%3A%2F%2Flocalhost%3A7211%2F&endpoint=PostAsync&username=yt&password=yt123&requestBody=body - 0
+2023-06-22 09:37:45.8635 DEBUG 1 candidate(s) found for the request path '/api/Auth/loginwithbasicauth'
+2023-06-22 09:37:45.8635 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.PostAsync (MultiLLibray.API)' with route pattern 'api/Auth/loginwithbasicauth' is valid for the request path '/api/Auth/loginwithbasicauth'
+2023-06-22 09:37:45.8635 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.PostAsync (MultiLLibray.API)'
+2023-06-22 09:37:45.8785 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 09:37:45.9553 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 09:37:45.9553 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.PostAsync (MultiLLibray.API)'
+2023-06-22 09:37:46.0023 INFO Route matched with {action = "Post", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] PostAsync(System.String, System.String, System.String, System.String, System.String) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 09:37:46.0023 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 09:37:46.0023 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 09:37:46.0023 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 09:37:46.0023 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 09:37:46.0023 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 09:37:46.0023 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 09:37:46.1787 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 09:37:46.2446 INFO Executed action MultiLLibray.API.Controllers.AuthController.PostAsync (MultiLLibray.API) in 237.481ms
+2023-06-22 09:37:46.2446 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.PostAsync (MultiLLibray.API)'
+2023-06-22 09:37:46.3157 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'System.Net.Http.HttpClient' while attempting to activate 'MultiLLibray.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 09:37:46.3157 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/loginwithbasicauth?baseUrl=https%3A%2F%2Flocalhost%3A7211%2F&endpoint=PostAsync&username=yt&password=yt123&requestBody=body - 0 - 500 - application/json 462.8814ms
+2023-06-22 09:52:09.0023 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 09:52:09.1591 DEBUG Hosting starting
+2023-06-22 09:52:09.2089 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 09:52:09.2218 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 09:52:09.2218 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 09:52:09.2218 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 09:52:09.2397 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 09:52:09.2397 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 09:52:09.2397 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:52:09.2397 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 09:52:09.2397 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:52:09.2534 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 09:52:09.2534 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 09:52:09.2534 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 09:52:09.2534 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 09:52:09.4623 INFO Now listening on: https://localhost:7211
+2023-06-22 09:52:09.4623 INFO Now listening on: http://localhost:5140
+2023-06-22 09:52:09.4623 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 09:52:09.4623 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 09:52:09.4623 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 09:52:09.4623 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 09:52:09.4623 INFO Hosting environment: Development
+2023-06-22 09:52:09.4623 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 09:52:09.4623 DEBUG Hosting started
+2023-06-22 09:52:09.4773 DEBUG Connection id "0HMRITKPJ3G8N" received FIN.
+2023-06-22 09:52:09.4773 DEBUG Connection id "0HMRITKPJ3G8N" accepted.
+2023-06-22 09:52:09.4773 DEBUG Connection id "0HMRITKPJ3G8N" started.
+2023-06-22 09:52:09.5043 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 09:52:09.5043 DEBUG Connection id "0HMRITKPJ3G8N" stopped.
+2023-06-22 09:52:09.5043 DEBUG Connection id "0HMRITKPJ3G8N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:52:10.0379 DEBUG Connection id "0HMRITKPJ3G8O" accepted.
+2023-06-22 09:52:10.0379 DEBUG Connection id "0HMRITKPJ3G8O" started.
+2023-06-22 09:52:10.0857 DEBUG Connection 0HMRITKPJ3G8O established using the following protocol: Tls13
+2023-06-22 09:52:10.1703 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 09:52:10.2023 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 09:52:10.2208 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 09:52:10.2208 DEBUG Request did not match any endpoints
+2023-06-22 09:52:10.3233 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 09:52:10.4203 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 09:52:10.4203 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 254.0857ms
+2023-06-22 09:52:10.7972 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 09:52:10.7972 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:52:10.8132 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 15.7816ms
+2023-06-22 09:52:10.8718 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.5497ms
+2023-06-22 09:52:11.1083 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 09:52:11.1083 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 09:52:11.1083 DEBUG Request did not match any endpoints
+2023-06-22 09:52:11.2360 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.7537ms
+2023-06-22 09:52:19.3294 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/loginwithjwt application/json 45
+2023-06-22 09:52:19.3352 DEBUG 1 candidate(s) found for the request path '/api/Auth/loginwithjwt'
+2023-06-22 09:52:19.3352 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)' with route pattern 'api/Auth/loginwithjwt' is valid for the request path '/api/Auth/loginwithjwt'
+2023-06-22 09:52:19.3352 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:52:19.3352 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 09:52:19.4133 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 09:52:19.4133 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:52:19.4624 INFO Route matched with {action = "LoginWithJwt", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginWithJwt(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 09:52:19.4624 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 09:52:19.4624 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 09:52:19.4624 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 09:52:19.4624 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 09:52:19.4624 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 09:52:19.4624 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 09:52:19.6319 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 09:52:19.6856 INFO Executed action MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API) in 218.7598ms
+2023-06-22 09:52:19.6856 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:52:19.7534 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'System.Net.Http.HttpClient' while attempting to activate 'MultiLLibray.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 09:52:19.7534 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/loginwithjwt application/json 45 - 500 - application/json 435.2266ms
+2023-06-22 09:52:19.7534 DEBUG Connection id "0HMRITKPJ3G8O", Request id "0HMRITKPJ3G8O:00000009": started reading request body.
+2023-06-22 09:52:19.7534 DEBUG Connection id "0HMRITKPJ3G8O", Request id "0HMRITKPJ3G8O:00000009": done reading request body.
+2023-06-22 09:53:51.4585 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 09:53:51.5936 DEBUG Hosting starting
+2023-06-22 09:53:51.6472 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 09:53:51.6584 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 09:53:51.6584 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 09:53:51.6584 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 09:53:51.6584 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 09:53:51.6764 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 09:53:51.6764 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:53:51.6764 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 09:53:51.6764 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 09:53:51.6764 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 09:53:51.6764 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 09:53:51.6897 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 09:53:51.6897 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 09:53:51.9204 INFO Now listening on: https://localhost:7211
+2023-06-22 09:53:51.9204 INFO Now listening on: http://localhost:5140
+2023-06-22 09:53:51.9204 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 09:53:51.9204 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 09:53:51.9204 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 09:53:51.9204 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 09:53:51.9204 INFO Hosting environment: Development
+2023-06-22 09:53:51.9204 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 09:53:51.9204 DEBUG Hosting started
+2023-06-22 09:53:52.2889 DEBUG Connection id "0HMRITLO7J1Q2" accepted.
+2023-06-22 09:53:52.2889 DEBUG Connection id "0HMRITLO7J1Q2" started.
+2023-06-22 09:53:52.2997 DEBUG Connection id "0HMRITLO7J1Q2" received FIN.
+2023-06-22 09:53:52.2997 DEBUG Connection id "0HMRITLO7J1Q3" received FIN.
+2023-06-22 09:53:52.2997 DEBUG Connection id "0HMRITLO7J1Q3" accepted.
+2023-06-22 09:53:52.2997 DEBUG Connection id "0HMRITLO7J1Q3" started.
+2023-06-22 09:53:52.2997 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 09:53:52.2997 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 09:53:52.2997 DEBUG Connection id "0HMRITLO7J1Q2" stopped.
+2023-06-22 09:53:52.2997 DEBUG Connection id "0HMRITLO7J1Q3" stopped.
+2023-06-22 09:53:52.3166 DEBUG Connection id "0HMRITLO7J1Q2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:53:52.3166 DEBUG Connection id "0HMRITLO7J1Q3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 09:53:52.7893 DEBUG Connection id "0HMRITLO7J1Q4" accepted.
+2023-06-22 09:53:52.7893 DEBUG Connection id "0HMRITLO7J1Q4" started.
+2023-06-22 09:53:52.8304 DEBUG Connection 0HMRITLO7J1Q4 established using the following protocol: Tls13
+2023-06-22 09:53:52.8989 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 09:53:52.9203 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 09:53:52.9408 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 09:53:52.9408 DEBUG Request did not match any endpoints
+2023-06-22 09:53:53.0191 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 09:53:53.1049 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 09:53:53.1049 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 210.8139ms
+2023-06-22 09:53:53.1395 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:53:53.1497 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 09:53:53.1497 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.1671ms
+2023-06-22 09:53:53.2181 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.2180ms
+2023-06-22 09:53:53.3048 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 09:53:53.3048 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 09:53:53.3048 DEBUG Request did not match any endpoints
+2023-06-22 09:53:53.4265 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.6810ms
+2023-06-22 09:54:05.5743 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/loginwithjwt application/json 45
+2023-06-22 09:54:05.5743 DEBUG 1 candidate(s) found for the request path '/api/Auth/loginwithjwt'
+2023-06-22 09:54:05.5813 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)' with route pattern 'api/Auth/loginwithjwt' is valid for the request path '/api/Auth/loginwithjwt'
+2023-06-22 09:54:05.5813 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:54:05.5813 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 09:54:05.6423 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 09:54:05.6444 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:54:05.6779 INFO Route matched with {action = "LoginWithJwt", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginWithJwt(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 09:54:05.6779 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 09:54:05.6779 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 09:54:05.6779 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 09:54:05.6779 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 09:54:05.6779 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 09:54:05.6779 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 09:54:05.8001 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 09:54:05.8569 DEBUG Executed controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 09:54:05.8757 DEBUG Attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' ...
+2023-06-22 09:54:05.8779 DEBUG Attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' using the name '' in request data ...
+2023-06-22 09:54:05.8779 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-22 09:54:05.8779 DEBUG Connection id "0HMRITLO7J1Q4", Request id "0HMRITLO7J1Q4:00000009": started reading request body.
+2023-06-22 09:54:05.8779 DEBUG Connection id "0HMRITLO7J1Q4", Request id "0HMRITLO7J1Q4:00000009": done reading request body.
+2023-06-22 09:54:05.8779 DEBUG JSON input formatter succeeded, deserializing to type 'MultiLLibray.API.DTOs.UserDto'
+2023-06-22 09:54:05.8779 DEBUG Done attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+2023-06-22 09:54:05.8779 DEBUG Done attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+2023-06-22 09:54:05.8779 DEBUG Attempting to validate the bound parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' ...
+2023-06-22 09:54:05.9043 DEBUG Done attempting to validate the bound parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+2023-06-22 09:54:08.6612 DEBUG Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-22 09:54:08.7350 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(x => x.Username == __userDto_username_0)'
+2023-06-22 09:54:08.9022 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Password (string) Required, 1], [Property: User.Username (string) Required, 2] }
+            SELECT TOP(1) u.Id, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__userDto_username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        MultiLLibray.API.Context.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-22 09:54:08.9411 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-22 09:54:08.9411 DEBUG Creating DbConnection.
+2023-06-22 09:54:08.9745 DEBUG Created DbConnection. (29ms).
+2023-06-22 09:54:08.9745 DEBUG Created DbCommand for 'ExecuteReader' (40ms).
+2023-06-22 09:54:08.9920 DEBUG Initialized DbCommand for 'ExecuteReader' (53ms).
+2023-06-22 09:54:08.9920 DEBUG Opening connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:54:09.3284 DEBUG Opened connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:54:09.3378 DEBUG Executing DbCommand [Parameters=[@__userDto_username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userDto_username_0
+2023-06-22 09:54:09.3957 INFO Executed DbCommand (61ms) [Parameters=[@__userDto_username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userDto_username_0
+2023-06-22 09:54:09.4309 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-22 09:54:09.4493 DEBUG Closing data reader to 'MultiLibray' on server '.'.
+2023-06-22 09:54:09.4562 DEBUG A data reader for 'MultiLibray' on server '.' is being disposed after spending 56ms reading results.
+2023-06-22 09:54:09.4562 DEBUG Closing connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:54:09.4562 DEBUG Closed connection to database 'MultiLibray' on server '.' (4ms).
+2023-06-22 09:54:30.6190 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-22 09:54:30.6289 DEBUG No information found on request to perform content negotiation.
+2023-06-22 09:54:30.6289 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-22 09:54:30.6289 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-22 09:54:30.6289 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-22 09:54:30.6289 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-22 09:54:30.6692 INFO Executed action MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API) in 24987.0422ms
+2023-06-22 09:54:30.6692 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.LoginWithJwt (MultiLLibray.API)'
+2023-06-22 09:54:31.5887 DEBUG 'ApplicationDbContext' disposed.
+2023-06-22 09:54:31.5887 DEBUG Disposing connection to database 'MultiLibray' on server '.'.
+2023-06-22 09:54:31.5887 DEBUG Disposed connection to database '' on server '' (1ms).
+2023-06-22 09:54:31.5887 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/loginwithjwt application/json 45 - 200 - application/json;+charset=utf-8 26018.5741ms
+2023-06-22 10:02:02.2852 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 10:02:02.3725 DEBUG Hosting starting
+2023-06-22 10:02:02.4101 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 10:02:02.4430 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 10:02:02.4430 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 10:02:02.4430 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 10:02:02.4430 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 10:02:02.4581 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 10:02:02.4581 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:02:02.4581 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 10:02:02.4581 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:02:02.4581 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 10:02:02.4581 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 10:02:02.4581 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 10:02:02.4581 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 10:02:02.6911 INFO Now listening on: https://localhost:7211
+2023-06-22 10:02:02.6911 INFO Now listening on: http://localhost:5140
+2023-06-22 10:02:02.6911 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 10:02:02.6911 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 10:02:02.6911 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 10:02:02.6911 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 10:02:02.6911 INFO Hosting environment: Development
+2023-06-22 10:02:02.6911 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 10:02:02.6911 DEBUG Hosting started
+2023-06-22 10:02:03.1294 DEBUG Connection id "0HMRITQAGJN5O" received FIN.
+2023-06-22 10:02:03.1294 DEBUG Connection id "0HMRITQAGJN5O" accepted.
+2023-06-22 10:02:03.1294 DEBUG Connection id "0HMRITQAGJN5O" started.
+2023-06-22 10:02:03.1535 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:02:03.1535 DEBUG Connection id "0HMRITQAGJN5O" stopped.
+2023-06-22 10:02:03.1535 DEBUG Connection id "0HMRITQAGJN5O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:02:03.6428 DEBUG Connection id "0HMRITQAGJN5P" accepted.
+2023-06-22 10:02:03.6428 DEBUG Connection id "0HMRITQAGJN5P" started.
+2023-06-22 10:02:03.6886 DEBUG Connection 0HMRITQAGJN5P established using the following protocol: Tls13
+2023-06-22 10:02:03.7596 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 10:02:03.7895 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 10:02:03.8166 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 10:02:03.8166 DEBUG Request did not match any endpoints
+2023-06-22 10:02:03.9298 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 10:02:04.0294 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 10:02:04.0294 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 273.2072ms
+2023-06-22 10:02:04.0586 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 10:02:04.0696 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 10:02:04.0696 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 21.0771ms
+2023-06-22 10:02:04.1356 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.0678ms
+2023-06-22 10:02:04.2293 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 10:02:04.2293 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 10:02:04.2293 DEBUG Request did not match any endpoints
+2023-06-22 10:02:04.3875 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 158.0101ms
+2023-06-22 10:02:14.5691 INFO Request starting HTTP/2 GET https://localhost:7211/api/Orders/GetDataListWithEF/pr - -
+2023-06-22 10:02:14.5691 DEBUG 1 candidate(s) found for the request path '/api/Orders/GetDataListWithEF/pr'
+2023-06-22 10:02:14.5691 DEBUG Endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)' with route pattern 'api/Orders/GetDataListWithEF/{value}' is valid for the request path '/api/Orders/GetDataListWithEF/pr'
+2023-06-22 10:02:14.5691 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:02:14.5691 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:02:14.6425 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:02:14.6455 INFO Executing endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:02:14.6813 INFO Route matched with {action = "GetDataListWithEF", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataListWithEF(System.String) on controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API).
+2023-06-22 10:02:14.6813 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:02:14.6813 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:02:14.6813 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:02:14.6813 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:02:14.6813 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:02:14.6813 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API)
+2023-06-22 10:02:14.8007 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 10:02:14.8405 DEBUG Executed controller factory for controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API)
+2023-06-22 10:02:14.8544 DEBUG Attempting to bind parameter 'value' of type 'System.String' ...
+2023-06-22 10:02:14.8544 DEBUG Attempting to bind parameter 'value' of type 'System.String' using the name 'value' in request data ...
+2023-06-22 10:02:14.8544 DEBUG Done attempting to bind parameter 'value' of type 'System.String'.
+2023-06-22 10:02:14.8544 DEBUG Done attempting to bind parameter 'value' of type 'System.String'.
+2023-06-22 10:02:14.8544 DEBUG Attempting to validate the bound parameter 'value' of type 'System.String' ...
+2023-06-22 10:02:14.8544 DEBUG Done attempting to validate the bound parameter 'value' of type 'System.String'.
+2023-06-22 10:02:18.0970 DEBUG Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-22 10:02:18.1680 DEBUG Compiling query expression: 
+'DbSet<Order>()
+    .Where(p => p.ProductName.Contains(__value_0))
+    .AsNoTracking()'
+2023-06-22 10:02:18.3614 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Order>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Order.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Order.ProductName (string) Required, 1], [Property: Order.Quantity (int) Required, 2], [Property: Order.TotalPrice (int) Required, 3] }
+        SELECT o.Id, o.ProductName, o.Quantity, o.TotalPrice
+        FROM Orders AS o
+        WHERE (@__value_0 LIKE N'') || (CHARINDEX(@__value_0, o.ProductName) > 0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Order>, 
+    MultiLLibray.API.Context.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-06-22 10:02:18.3934 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-06-22 10:02:18.3949 DEBUG Creating DbConnection.
+2023-06-22 10:02:18.4190 DEBUG Created DbConnection. (22ms).
+2023-06-22 10:02:18.4257 DEBUG Created DbCommand for 'ExecuteReader' (31ms).
+2023-06-22 10:02:18.4257 DEBUG Initialized DbCommand for 'ExecuteReader' (42ms).
+2023-06-22 10:02:18.4257 DEBUG Opening connection to database 'MultiLibray' on server '.'.
+2023-06-22 10:02:18.7323 DEBUG Opened connection to database 'MultiLibray' on server '.'.
+2023-06-22 10:02:18.7430 DEBUG Executing DbCommand [Parameters=[@__value_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[ProductName], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+WHERE (@__value_0 LIKE N'') OR CHARINDEX(@__value_0, [o].[ProductName]) > 0
+2023-06-22 10:02:18.8111 INFO Executed DbCommand (72ms) [Parameters=[@__value_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[ProductName], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+WHERE (@__value_0 LIKE N'') OR CHARINDEX(@__value_0, [o].[ProductName]) > 0
+2023-06-22 10:02:18.9682 DEBUG Closing data reader to 'MultiLibray' on server '.'.
+2023-06-22 10:02:18.9739 DEBUG A data reader for 'MultiLibray' on server '.' is being disposed after spending 158ms reading results.
+2023-06-22 10:02:18.9739 DEBUG Closing connection to database 'MultiLibray' on server '.'.
+2023-06-22 10:02:18.9739 DEBUG Closed connection to database 'MultiLibray' on server '.' (4ms).
+2023-06-22 10:02:21.6920 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-22 10:02:21.6920 DEBUG No information found on request to perform content negotiation.
+2023-06-22 10:02:21.6920 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-22 10:02:21.6920 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-22 10:02:21.6920 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-22 10:02:21.6920 INFO Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListPartition`1[[MultiLLibray.API.Models.Order, MultiLLibray.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-22 10:02:21.6920 INFO Executed action MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API) in 7019.6163ms
+2023-06-22 10:02:21.6920 INFO Executed endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:02:21.7098 DEBUG 'ApplicationDbContext' disposed.
+2023-06-22 10:02:21.7098 DEBUG Disposing connection to database 'MultiLibray' on server '.'.
+2023-06-22 10:02:21.7098 DEBUG Disposed connection to database '' on server '' (1ms).
+2023-06-22 10:02:21.7098 INFO Request finished HTTP/2 GET https://localhost:7211/api/Orders/GetDataListWithEF/pr - - - 200 - application/json;+charset=utf-8 7145.2079ms
+2023-06-22 10:05:05.8730 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 10:05:05.9561 DEBUG Hosting starting
+2023-06-22 10:05:06.0064 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 10:05:06.0080 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 10:05:06.0080 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 10:05:06.0266 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 10:05:06.0266 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 10:05:06.0266 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 10:05:06.0266 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:05:06.0400 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 10:05:06.0400 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:05:06.0400 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 10:05:06.0400 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 10:05:06.0400 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 10:05:06.0400 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 10:05:06.2583 INFO Now listening on: https://localhost:7211
+2023-06-22 10:05:06.2585 INFO Now listening on: http://localhost:5140
+2023-06-22 10:05:06.2585 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 10:05:06.2585 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 10:05:06.2585 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 10:05:06.2585 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 10:05:06.2585 INFO Hosting environment: Development
+2023-06-22 10:05:06.2585 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 10:05:06.2585 DEBUG Hosting started
+2023-06-22 10:05:06.5718 DEBUG Connection id "0HMRITS161RL7" accepted.
+2023-06-22 10:05:06.5718 DEBUG Connection id "0HMRITS161RL7" started.
+2023-06-22 10:05:06.5718 DEBUG Connection id "0HMRITS161RL7" received FIN.
+2023-06-22 10:05:06.5913 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:05:06.5913 DEBUG Connection id "0HMRITS161RL7" stopped.
+2023-06-22 10:05:06.5913 DEBUG Connection id "0HMRITS161RL7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:05:07.1271 DEBUG Connection id "0HMRITS161RL8" accepted.
+2023-06-22 10:05:07.1271 DEBUG Connection id "0HMRITS161RL8" started.
+2023-06-22 10:05:07.1743 DEBUG Connection 0HMRITS161RL8 established using the following protocol: Tls13
+2023-06-22 10:05:07.2441 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 10:05:07.2686 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 10:05:07.2917 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 10:05:07.2917 DEBUG Request did not match any endpoints
+2023-06-22 10:05:07.4050 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 10:05:07.5116 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 10:05:07.5116 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 271.7357ms
+2023-06-22 10:05:07.5422 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 10:05:07.5588 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 10:05:07.5588 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 19.9107ms
+2023-06-22 10:05:07.6171 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.3524ms
+2023-06-22 10:05:07.7159 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 10:05:07.7159 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 10:05:07.7159 DEBUG Request did not match any endpoints
+2023-06-22 10:05:07.8602 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.1657ms
+2023-06-22 10:05:14.0059 INFO Request starting HTTP/2 GET https://localhost:7211/api/Orders/GetDataListWithEF/pr - -
+2023-06-22 10:05:14.0114 DEBUG 1 candidate(s) found for the request path '/api/Orders/GetDataListWithEF/pr'
+2023-06-22 10:05:14.0114 DEBUG Endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)' with route pattern 'api/Orders/GetDataListWithEF/{value}' is valid for the request path '/api/Orders/GetDataListWithEF/pr'
+2023-06-22 10:05:14.0114 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:05:14.0114 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:05:14.0783 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:05:14.0783 INFO Executing endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:05:14.1056 INFO Route matched with {action = "GetDataListWithEF", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataListWithEF(System.String) on controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API).
+2023-06-22 10:05:14.1056 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:05:14.1056 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:05:14.1056 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:05:14.1056 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:05:14.1056 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:05:14.1180 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API)
+2023-06-22 10:05:14.2441 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 10:05:14.2654 INFO Executed action MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API) in 146.8152ms
+2023-06-22 10:05:14.2654 INFO Executed endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:05:14.3122 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MultiLLibray.API.MapperProfiles.OrderMapperProfile' while attempting to activate 'MultiLLibray.API.Controllers.OrdersController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 10:05:14.3239 INFO Request finished HTTP/2 GET https://localhost:7211/api/Orders/GetDataListWithEF/pr - - - 500 - application/json 318.1758ms
+2023-06-22 10:05:21.4385 INFO Request starting HTTP/2 GET https://localhost:7211/api/Orders/GetDataListWithEF/pr - -
+2023-06-22 10:05:21.4385 DEBUG 1 candidate(s) found for the request path '/api/Orders/GetDataListWithEF/pr'
+2023-06-22 10:05:21.4385 DEBUG Endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)' with route pattern 'api/Orders/GetDataListWithEF/{value}' is valid for the request path '/api/Orders/GetDataListWithEF/pr'
+2023-06-22 10:05:21.4385 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:05:21.4385 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:05:21.4385 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:05:21.4385 INFO Executing endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:05:21.4385 INFO Route matched with {action = "GetDataListWithEF", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataListWithEF(System.String) on controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API).
+2023-06-22 10:05:21.4385 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:05:21.4385 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:05:21.4385 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:05:21.4385 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:05:21.4385 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:05:21.4385 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.OrdersController (MultiLLibray.API)
+2023-06-22 10:05:21.4540 INFO Executed action MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API) in 9.0358ms
+2023-06-22 10:05:21.4540 INFO Executed endpoint 'MultiLLibray.API.Controllers.OrdersController.GetDataListWithEF (MultiLLibray.API)'
+2023-06-22 10:05:21.4678 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MultiLLibray.API.MapperProfiles.OrderMapperProfile' while attempting to activate 'MultiLLibray.API.Controllers.OrdersController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 10:05:21.4678 INFO Request finished HTTP/2 GET https://localhost:7211/api/Orders/GetDataListWithEF/pr - - - 500 - application/json 29.5803ms
+2023-06-22 10:39:52.3725 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 10:39:52.4601 DEBUG Hosting starting
+2023-06-22 10:39:52.5192 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 10:39:52.5257 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 10:39:52.5409 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 10:39:52.5409 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 10:39:52.5409 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 10:39:52.5409 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 10:39:52.5409 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:39:52.5568 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 10:39:52.5568 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:39:52.5568 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 10:39:52.5568 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 10:39:52.5568 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 10:39:52.5568 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 10:39:52.7735 INFO Now listening on: https://localhost:7211
+2023-06-22 10:39:52.7735 INFO Now listening on: http://localhost:5140
+2023-06-22 10:39:52.7735 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 10:39:52.7735 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 10:39:52.7735 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 10:39:52.7735 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 10:39:52.7735 INFO Hosting environment: Development
+2023-06-22 10:39:52.7735 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 10:39:52.7735 DEBUG Hosting started
+2023-06-22 10:39:52.9759 DEBUG Connection id "0HMRIUFEVHSU6" received FIN.
+2023-06-22 10:39:52.9759 DEBUG Connection id "0HMRIUFEVHSU5" received FIN.
+2023-06-22 10:39:52.9818 DEBUG Connection id "0HMRIUFEVHSU6" accepted.
+2023-06-22 10:39:52.9818 DEBUG Connection id "0HMRIUFEVHSU5" accepted.
+2023-06-22 10:39:52.9818 DEBUG Connection id "0HMRIUFEVHSU6" started.
+2023-06-22 10:39:52.9818 DEBUG Connection id "0HMRIUFEVHSU5" started.
+2023-06-22 10:39:53.0035 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:39:53.0035 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:39:53.0035 DEBUG Connection id "0HMRIUFEVHSU5" stopped.
+2023-06-22 10:39:53.0035 DEBUG Connection id "0HMRIUFEVHSU6" stopped.
+2023-06-22 10:39:53.0035 DEBUG Connection id "0HMRIUFEVHSU5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:39:53.0035 DEBUG Connection id "0HMRIUFEVHSU6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:39:53.4957 DEBUG Connection id "0HMRIUFEVHSU7" accepted.
+2023-06-22 10:39:53.4957 DEBUG Connection id "0HMRIUFEVHSU7" started.
+2023-06-22 10:39:53.5439 DEBUG Connection 0HMRIUFEVHSU7 established using the following protocol: Tls13
+2023-06-22 10:39:53.6188 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 10:39:53.6486 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 10:39:53.6739 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 10:39:53.6739 DEBUG Request did not match any endpoints
+2023-06-22 10:39:53.8059 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 10:39:53.9218 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 10:39:53.9218 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 307.2324ms
+2023-06-22 10:39:53.9519 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 10:39:53.9519 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.0485ms
+2023-06-22 10:39:53.9519 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 10:39:54.0183 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.3685ms
+2023-06-22 10:39:54.1304 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 10:39:54.1304 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 10:39:54.1304 DEBUG Request did not match any endpoints
+2023-06-22 10:39:54.2722 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.6969ms
+2023-06-22 10:40:04.0266 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45
+2023-06-22 10:40:04.0266 DEBUG 1 candidate(s) found for the request path '/api/Auth/login'
+2023-06-22 10:40:04.0266 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2023-06-22 10:40:04.0266 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:40:04.0266 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:40:04.1015 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:40:04.1015 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:40:04.1377 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 10:40:04.1377 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:40:04.1377 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:40:04.1377 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:40:04.1377 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:40:04.1377 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:40:04.1377 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 10:40:04.2626 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 10:40:04.2963 INFO Executed action MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API) in 154.5895ms
+2023-06-22 10:40:04.2963 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:40:04.3541 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MultiLLibray.API.MapperProfiles.UserMapperProfile' while attempting to activate 'MultiLLibray.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 10:40:04.3541 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45 - 500 - application/json 338.0890ms
+2023-06-22 10:40:04.3541 DEBUG Connection id "0HMRIUFEVHSU7", Request id "0HMRIUFEVHSU7:00000009": started reading request body.
+2023-06-22 10:40:04.3541 DEBUG Connection id "0HMRIUFEVHSU7", Request id "0HMRIUFEVHSU7:00000009": done reading request body.
+2023-06-22 10:43:05.6693 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 10:43:05.7404 DEBUG Hosting starting
+2023-06-22 10:43:05.7783 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 10:43:05.7926 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 10:43:05.7926 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 10:43:05.8090 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 10:43:05.8090 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 10:43:05.8090 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 10:43:05.8090 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:43:05.8247 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 10:43:05.8247 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:43:05.8247 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 10:43:05.8247 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 10:43:05.8247 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 10:43:05.8247 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 10:43:06.0144 INFO Now listening on: https://localhost:7211
+2023-06-22 10:43:06.0144 INFO Now listening on: http://localhost:5140
+2023-06-22 10:43:06.0144 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 10:43:06.0144 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 10:43:06.0144 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 10:43:06.0144 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 10:43:06.0144 INFO Hosting environment: Development
+2023-06-22 10:43:06.0144 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 10:43:06.0144 DEBUG Hosting started
+2023-06-22 10:43:06.2183 DEBUG Connection id "0HMRIUH8IERI5" received FIN.
+2023-06-22 10:43:06.2183 DEBUG Connection id "0HMRIUH8IERI5" accepted.
+2023-06-22 10:43:06.2183 DEBUG Connection id "0HMRIUH8IERI5" started.
+2023-06-22 10:43:06.2377 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:43:06.2377 DEBUG Connection id "0HMRIUH8IERI5" stopped.
+2023-06-22 10:43:06.2377 DEBUG Connection id "0HMRIUH8IERI5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:43:06.8058 DEBUG Connection id "0HMRIUH8IERI6" accepted.
+2023-06-22 10:43:06.8066 DEBUG Connection id "0HMRIUH8IERI6" started.
+2023-06-22 10:43:06.8472 DEBUG Connection 0HMRIUH8IERI6 established using the following protocol: Tls13
+2023-06-22 10:43:06.9176 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 10:43:06.9437 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 10:43:06.9632 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 10:43:06.9632 DEBUG Request did not match any endpoints
+2023-06-22 10:43:07.0543 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 10:43:07.1443 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 10:43:07.1443 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 230.4805ms
+2023-06-22 10:43:07.1775 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 10:43:07.1846 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 10:43:07.1846 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 19.1600ms
+2023-06-22 10:43:07.2522 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.5663ms
+2023-06-22 10:43:07.3501 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 10:43:07.3501 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 10:43:07.3501 DEBUG Request did not match any endpoints
+2023-06-22 10:43:07.4725 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.4523ms
+2023-06-22 10:43:14.8814 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45
+2023-06-22 10:43:14.8870 DEBUG 1 candidate(s) found for the request path '/api/Auth/login'
+2023-06-22 10:43:14.8870 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2023-06-22 10:43:14.8870 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:43:14.8870 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:43:14.9534 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:43:14.9534 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:43:14.9793 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 10:43:14.9793 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:43:14.9793 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:43:14.9793 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:43:14.9793 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:43:14.9793 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:43:14.9793 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 10:43:15.1232 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 10:43:15.1464 INFO Executed action MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API) in 153.765ms
+2023-06-22 10:43:15.1464 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:43:15.1973 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MultiLLibray.API.MapperProfiles.UserMapperProfile' while attempting to activate 'MultiLLibray.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 10:43:15.1973 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45 - 500 - application/json 324.9261ms
+2023-06-22 10:43:15.1973 DEBUG Connection id "0HMRIUH8IERI6", Request id "0HMRIUH8IERI6:00000009": started reading request body.
+2023-06-22 10:43:15.1973 DEBUG Connection id "0HMRIUH8IERI6", Request id "0HMRIUH8IERI6:00000009": done reading request body.
+2023-06-22 10:45:52.5441 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 10:45:52.6096 DEBUG Hosting starting
+2023-06-22 10:45:52.6752 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 10:45:52.6817 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 10:45:52.6817 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 10:45:52.6817 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 10:45:52.6817 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 10:45:52.6817 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 10:45:52.6817 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:45:52.6980 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 10:45:52.6980 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:45:52.6980 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 10:45:52.6980 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 10:45:52.6980 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 10:45:52.6980 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 10:45:52.8649 INFO Now listening on: https://localhost:7211
+2023-06-22 10:45:52.8649 INFO Now listening on: http://localhost:5140
+2023-06-22 10:45:52.8649 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 10:45:52.8649 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 10:45:52.8649 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 10:45:52.8649 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 10:45:52.8649 INFO Hosting environment: Development
+2023-06-22 10:45:52.8649 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 10:45:52.8649 DEBUG Hosting started
+2023-06-22 10:45:53.1504 DEBUG Connection id "0HMRIUIQAECPC" accepted.
+2023-06-22 10:45:53.1512 DEBUG Connection id "0HMRIUIQAECPC" started.
+2023-06-22 10:45:53.1744 DEBUG Connection id "0HMRIUIQAECPD" accepted.
+2023-06-22 10:45:53.1744 DEBUG Connection id "0HMRIUIQAECPD" started.
+2023-06-22 10:45:53.1912 DEBUG Connection id "0HMRIUIQAECPC" received FIN.
+2023-06-22 10:45:53.1912 DEBUG Connection id "0HMRIUIQAECPD" received FIN.
+2023-06-22 10:45:53.2009 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:45:53.2009 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:45:53.2009 DEBUG Connection id "0HMRIUIQAECPD" stopped.
+2023-06-22 10:45:53.2009 DEBUG Connection id "0HMRIUIQAECPC" stopped.
+2023-06-22 10:45:53.2009 DEBUG Connection id "0HMRIUIQAECPD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:45:53.2009 DEBUG Connection id "0HMRIUIQAECPC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:45:53.9176 DEBUG Connection id "0HMRIUIQAECPE" accepted.
+2023-06-22 10:45:53.9176 DEBUG Connection id "0HMRIUIQAECPE" started.
+2023-06-22 10:45:53.9546 DEBUG Connection 0HMRIUIQAECPE established using the following protocol: Tls13
+2023-06-22 10:45:54.0403 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 10:45:54.0776 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 10:45:54.1054 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 10:45:54.1054 DEBUG Request did not match any endpoints
+2023-06-22 10:45:54.2550 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 10:45:54.3640 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 10:45:54.3640 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 327.1478ms
+2023-06-22 10:45:54.3912 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 10:45:54.3912 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.8488ms
+2023-06-22 10:45:54.4279 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 10:45:54.4924 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.4735ms
+2023-06-22 10:45:54.6178 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 10:45:54.6178 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 10:45:54.6178 DEBUG Request did not match any endpoints
+2023-06-22 10:45:54.7530 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.1172ms
+2023-06-22 10:46:02.6337 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45
+2023-06-22 10:46:02.6417 DEBUG 1 candidate(s) found for the request path '/api/Auth/login'
+2023-06-22 10:46:02.6417 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2023-06-22 10:46:02.6417 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:46:02.6417 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:46:02.7206 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:46:02.7206 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:46:02.7480 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 10:46:02.7480 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:46:02.7480 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:46:02.7480 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:46:02.7480 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:46:02.7480 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:46:02.7610 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 10:46:02.8850 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 10:46:02.9166 INFO Executed action MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API) in 154.2483ms
+2023-06-22 10:46:02.9166 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:46:02.9671 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MultiLLibray.API.MapperProfiles.UserMapperProfile' while attempting to activate 'MultiLLibray.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 10:46:02.9671 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45 - 500 - application/json 344.7457ms
+2023-06-22 10:46:02.9792 DEBUG Connection id "0HMRIUIQAECPE", Request id "0HMRIUIQAECPE:00000009": started reading request body.
+2023-06-22 10:46:02.9792 DEBUG Connection id "0HMRIUIQAECPE", Request id "0HMRIUIQAECPE:00000009": done reading request body.
+2023-06-22 10:46:58.0108 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-22 10:46:58.0903 DEBUG Hosting starting
+2023-06-22 10:46:58.1259 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 10:46:58.1348 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+2023-06-22 10:46:58.1348 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+2023-06-22 10:46:58.1348 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+2023-06-22 10:46:58.1348 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+2023-06-22 10:46:58.1348 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+2023-06-22 10:46:58.1348 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:46:58.1507 DEBUG Decrypting secret element using Windows DPAPI.
+2023-06-22 10:46:58.1507 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-22 10:46:58.1507 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-22 10:46:58.1507 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-22 10:46:58.1507 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+2023-06-22 10:46:58.1507 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+2023-06-22 10:46:58.3148 INFO Now listening on: https://localhost:7211
+2023-06-22 10:46:58.3148 INFO Now listening on: http://localhost:5140
+2023-06-22 10:46:58.3148 DEBUG Loaded hosting startup assembly MultiLLibray.API
+2023-06-22 10:46:58.3148 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 10:46:58.3148 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 10:46:58.3148 INFO Application started. Press Ctrl+C to shut down.
+2023-06-22 10:46:58.3148 INFO Hosting environment: Development
+2023-06-22 10:46:58.3148 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+2023-06-22 10:46:58.3148 DEBUG Hosting started
+2023-06-22 10:46:58.6612 DEBUG Connection id "0HMRIUJDR6OST" accepted.
+2023-06-22 10:46:58.6612 DEBUG Connection id "0HMRIUJDR6OST" started.
+2023-06-22 10:46:58.6733 DEBUG Connection id "0HMRIUJDR6OSU" received FIN.
+2023-06-22 10:46:58.6733 DEBUG Connection id "0HMRIUJDR6OST" received FIN.
+2023-06-22 10:46:58.6733 DEBUG Connection id "0HMRIUJDR6OSU" accepted.
+2023-06-22 10:46:58.6733 DEBUG Connection id "0HMRIUJDR6OSU" started.
+2023-06-22 10:46:58.6866 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:46:58.6866 DEBUG Failed to authenticate HTTPS connection.
+2023-06-22 10:46:58.6866 DEBUG Connection id "0HMRIUJDR6OSU" stopped.
+2023-06-22 10:46:58.6866 DEBUG Connection id "0HMRIUJDR6OST" stopped.
+2023-06-22 10:46:58.6866 DEBUG Connection id "0HMRIUJDR6OSU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:46:58.6866 DEBUG Connection id "0HMRIUJDR6OST" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-22 10:46:59.1986 DEBUG Connection id "0HMRIUJDR6OSV" accepted.
+2023-06-22 10:46:59.1986 DEBUG Connection id "0HMRIUJDR6OSV" started.
+2023-06-22 10:46:59.2612 DEBUG Connection 0HMRIUJDR6OSV established using the following protocol: Tls13
+2023-06-22 10:46:59.3280 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+2023-06-22 10:46:59.3602 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-06-22 10:46:59.3848 DEBUG No candidates found for the request path '/swagger/index.html'
+2023-06-22 10:46:59.3848 DEBUG Request did not match any endpoints
+2023-06-22 10:46:59.4883 DEBUG Response markup is scheduled to include browser refresh script injection.
+2023-06-22 10:46:59.5897 DEBUG Response markup was updated to include browser refresh script injection.
+2023-06-22 10:46:59.5897 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 265.6342ms
+2023-06-22 10:46:59.6159 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 10:46:59.6236 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.5745ms
+2023-06-22 10:46:59.6236 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+2023-06-22 10:46:59.6912 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.1443ms
+2023-06-22 10:46:59.7762 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+2023-06-22 10:46:59.7762 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-22 10:46:59.7762 DEBUG Request did not match any endpoints
+2023-06-22 10:46:59.9057 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.4998ms
+2023-06-22 10:47:03.5630 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/login application/json 50
+2023-06-22 10:47:03.5630 DEBUG 1 candidate(s) found for the request path '/api/Auth/login'
+2023-06-22 10:47:03.5630 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2023-06-22 10:47:03.5630 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:47:03.5737 DEBUG Static files was skipped as the request already matched an endpoint.
+2023-06-22 10:47:03.6335 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2023-06-22 10:47:03.6363 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:47:03.6723 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+2023-06-22 10:47:03.6723 DEBUG Execution plan of authorization filters (in the following order): None
+2023-06-22 10:47:03.6723 DEBUG Execution plan of resource filters (in the following order): None
+2023-06-22 10:47:03.6723 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-22 10:47:03.6723 DEBUG Execution plan of exception filters (in the following order): None
+2023-06-22 10:47:03.6723 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-22 10:47:03.6723 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+2023-06-22 10:47:03.8070 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-22 10:47:03.8286 INFO Executed action MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API) in 152.4452ms
+2023-06-22 10:47:03.8286 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+2023-06-22 10:47:03.8756 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MultiLLibray.API.MapperProfiles.UserMapperProfile' while attempting to activate 'MultiLLibray.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MultiLLibray.API.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API\Middlewares\ExceptionMiddleware.cs:line 20
+2023-06-22 10:47:03.8874 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/login application/json 50 - 500 - application/json 324.3543ms
+2023-06-22 10:47:03.8874 DEBUG Connection id "0HMRIUJDR6OSV", Request id "0HMRIUJDR6OSV:00000009": started reading request body.
+2023-06-22 10:47:03.8874 DEBUG Connection id "0HMRIUJDR6OSV", Request id "0HMRIUJDR6OSV:00000009": done reading request body.
+2023-06-22 10:54:32.5790 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+
+2023-06-22 10:54:32.6972 DEBUG Hosting starting
+
+2023-06-22 10:54:32.7577 INFO User profile is available. Using 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+2023-06-22 10:54:32.7756 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-297fb0da-9f0d-4267-8baf-0f1a582f7b63.xml'.
+
+2023-06-22 10:54:32.7756 DEBUG Reading data from file 'C:\Users\yigittanyel\AppData\Local\ASP.NET\DataProtection-Keys\key-58622f39-0520-4088-9f83-66ed59b82ee2.xml'.
+
+2023-06-22 10:54:32.7756 DEBUG Found key {297fb0da-9f0d-4267-8baf-0f1a582f7b63}.
+
+2023-06-22 10:54:32.7756 DEBUG Found key {58622f39-0520-4088-9f83-66ed59b82ee2}.
+
+2023-06-22 10:54:32.7982 DEBUG Considering key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} with expiration date 2023-08-27 06:07:52Z as default key.
+
+2023-06-22 10:54:32.7982 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+
+2023-06-22 10:54:32.7982 DEBUG Decrypting secret element using Windows DPAPI.
+
+2023-06-22 10:54:32.8081 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+
+2023-06-22 10:54:32.8081 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+
+2023-06-22 10:54:32.8081 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+
+2023-06-22 10:54:32.8081 DEBUG Using key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} as the default key.
+
+2023-06-22 10:54:32.8081 DEBUG Key ring with default key {297fb0da-9f0d-4267-8baf-0f1a582f7b63} was loaded during application startup.
+
+2023-06-22 10:54:33.0101 INFO Now listening on: https://localhost:7211
+
+2023-06-22 10:54:33.0101 INFO Now listening on: http://localhost:5140
+
+2023-06-22 10:54:33.0101 DEBUG Loaded hosting startup assembly MultiLLibray.API
+
+2023-06-22 10:54:33.0101 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+
+2023-06-22 10:54:33.0101 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+
+2023-06-22 10:54:33.0101 INFO Application started. Press Ctrl+C to shut down.
+
+2023-06-22 10:54:33.0101 INFO Hosting environment: Development
+
+2023-06-22 10:54:33.0101 INFO Content root path: D:\TrialProjects\MultiLibrary\MultiLLibray.API\MultiLLibray.API
+
+2023-06-22 10:54:33.0101 DEBUG Hosting started
+
+2023-06-22 10:54:33.4048 DEBUG Connection id "0HMRIUNLBVGBK" accepted.
+
+2023-06-22 10:54:33.4048 DEBUG Connection id "0HMRIUNLBVGBK" started.
+
+2023-06-22 10:54:33.4448 DEBUG Connection id "0HMRIUNLBVGBK" received FIN.
+
+2023-06-22 10:54:33.4448 DEBUG Connection id "0HMRIUNLBVGBL" received FIN.
+
+2023-06-22 10:54:33.4448 DEBUG Connection id "0HMRIUNLBVGBL" accepted.
+
+2023-06-22 10:54:33.4448 DEBUG Connection id "0HMRIUNLBVGBL" started.
+
+2023-06-22 10:54:33.4548 DEBUG Failed to authenticate HTTPS connection.
+
+2023-06-22 10:54:33.4548 DEBUG Failed to authenticate HTTPS connection.
+
+2023-06-22 10:54:33.4548 DEBUG Connection id "0HMRIUNLBVGBK" stopped.
+
+2023-06-22 10:54:33.4548 DEBUG Connection id "0HMRIUNLBVGBL" stopped.
+
+2023-06-22 10:54:33.4548 DEBUG Connection id "0HMRIUNLBVGBL" sending FIN because: "The Socket transport's send loop completed gracefully."
+
+2023-06-22 10:54:33.4548 DEBUG Connection id "0HMRIUNLBVGBK" sending FIN because: "The Socket transport's send loop completed gracefully."
+
+2023-06-22 10:54:33.9233 DEBUG Connection id "0HMRIUNLBVGBM" accepted.
+
+2023-06-22 10:54:33.9233 DEBUG Connection id "0HMRIUNLBVGBM" started.
+
+2023-06-22 10:54:33.9817 DEBUG Connection 0HMRIUNLBVGBM established using the following protocol: Tls13
+
+2023-06-22 10:54:34.0519 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/index.html - -
+
+2023-06-22 10:54:34.0790 DEBUG Wildcard detected, all requests with hosts will be allowed.
+
+2023-06-22 10:54:34.1037 DEBUG No candidates found for the request path '/swagger/index.html'
+
+2023-06-22 10:54:34.1037 DEBUG Request did not match any endpoints
+
+2023-06-22 10:54:34.1899 DEBUG Response markup is scheduled to include browser refresh script injection.
+
+2023-06-22 10:54:34.2845 DEBUG Response markup was updated to include browser refresh script injection.
+
+2023-06-22 10:54:34.2845 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/index.html - - - 200 - text/html;charset=utf-8 236.8749ms
+
+2023-06-22 10:54:34.3153 INFO Request starting HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - -
+
+2023-06-22 10:54:34.3233 INFO Request finished HTTP/2 GET https://localhost:7211/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.8054ms
+
+2023-06-22 10:54:34.3233 INFO Request starting HTTP/2 GET https://localhost:7211/_vs/browserLink - -
+
+2023-06-22 10:54:34.3946 INFO Request finished HTTP/2 GET https://localhost:7211/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.1255ms
+
+2023-06-22 10:54:34.4890 INFO Request starting HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - -
+
+2023-06-22 10:54:34.4890 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+
+2023-06-22 10:54:34.4890 DEBUG Request did not match any endpoints
+
+2023-06-22 10:54:34.6332 INFO Request finished HTTP/2 GET https://localhost:7211/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.1347ms
+
+2023-06-22 10:54:40.9948 INFO Request starting HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45
+
+2023-06-22 10:54:40.9948 DEBUG 1 candidate(s) found for the request path '/api/Auth/login'
+
+2023-06-22 10:54:40.9948 DEBUG Endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+
+2023-06-22 10:54:40.9948 DEBUG Request matched endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+
+2023-06-22 10:54:40.9948 DEBUG Static files was skipped as the request already matched an endpoint.
+
+2023-06-22 10:54:41.0709 DEBUG AuthenticationScheme: Bearer was not authenticated.
+
+2023-06-22 10:54:41.0737 INFO Executing endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+
+2023-06-22 10:54:41.1046 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MultiLLibray.API.DTOs.UserDto) on controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API).
+
+2023-06-22 10:54:41.1046 DEBUG Execution plan of authorization filters (in the following order): None
+
+2023-06-22 10:54:41.1046 DEBUG Execution plan of resource filters (in the following order): None
+
+2023-06-22 10:54:41.1046 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+
+2023-06-22 10:54:41.1046 DEBUG Execution plan of exception filters (in the following order): None
+
+2023-06-22 10:54:41.1046 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+
+2023-06-22 10:54:41.1046 DEBUG Executing controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+
+2023-06-22 10:54:41.2473 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+
+2023-06-22 10:54:41.2733 DEBUG Executed controller factory for controller MultiLLibray.API.Controllers.AuthController (MultiLLibray.API)
+
+2023-06-22 10:54:41.2891 DEBUG Attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' ...
+
+2023-06-22 10:54:41.2891 DEBUG Attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' using the name '' in request data ...
+
+2023-06-22 10:54:41.2921 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+
+2023-06-22 10:54:41.2921 DEBUG Connection id "0HMRIUNLBVGBM", Request id "0HMRIUNLBVGBM:00000009": started reading request body.
+
+2023-06-22 10:54:41.2921 DEBUG Connection id "0HMRIUNLBVGBM", Request id "0HMRIUNLBVGBM:00000009": done reading request body.
+
+2023-06-22 10:54:41.2921 DEBUG JSON input formatter succeeded, deserializing to type 'MultiLLibray.API.DTOs.UserDto'
+
+2023-06-22 10:54:41.2921 DEBUG Done attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+
+2023-06-22 10:54:41.2921 DEBUG Done attempting to bind parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+
+2023-06-22 10:54:41.2921 DEBUG Attempting to validate the bound parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto' ...
+
+2023-06-22 10:54:41.3130 DEBUG Done attempting to validate the bound parameter 'userDto' of type 'MultiLLibray.API.DTOs.UserDto'.
+
+2023-06-22 10:54:45.8178 DEBUG Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+
+2023-06-22 10:54:45.8829 DEBUG Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(x => x.Username == __userDto_username_0)'
+
+2023-06-22 10:54:46.0518 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Password (string) Required, 1], [Property: User.Username (string) Required, 2] }
+            SELECT TOP(1) u.Id, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__userDto_username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        MultiLLibray.API.Context.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+
+2023-06-22 10:54:46.0941 DEBUG Creating DbCommand for 'ExecuteReader'.
+
+2023-06-22 10:54:46.0941 DEBUG Creating DbConnection.
+
+2023-06-22 10:54:46.1240 DEBUG Created DbConnection. (25ms).
+
+2023-06-22 10:54:46.1240 DEBUG Created DbCommand for 'ExecuteReader' (36ms).
+
+2023-06-22 10:54:46.1408 DEBUG Initialized DbCommand for 'ExecuteReader' (47ms).
+
+2023-06-22 10:54:46.1408 DEBUG Opening connection to database 'MultiLibray' on server '.'.
+
+2023-06-22 10:54:46.4923 DEBUG Opened connection to database 'MultiLibray' on server '.'.
+
+2023-06-22 10:54:46.5015 DEBUG Executing DbCommand [Parameters=[@__userDto_username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userDto_username_0
+
+2023-06-22 10:54:46.5544 INFO Executed DbCommand (56ms) [Parameters=[@__userDto_username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userDto_username_0
+
+2023-06-22 10:54:46.5892 DEBUG Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+2023-06-22 10:54:46.6077 DEBUG Closing data reader to 'MultiLibray' on server '.'.
+
+2023-06-22 10:54:46.6077 DEBUG A data reader for 'MultiLibray' on server '.' is being disposed after spending 55ms reading results.
+
+2023-06-22 10:54:46.6077 DEBUG Closing connection to database 'MultiLibray' on server '.'.
+
+2023-06-22 10:54:46.6205 DEBUG Closed connection to database 'MultiLibray' on server '.' (4ms).
+
+2023-06-22 10:54:47.6507 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+
+2023-06-22 10:54:47.6507 DEBUG No information found on request to perform content negotiation.
+
+2023-06-22 10:54:47.6507 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+
+2023-06-22 10:54:47.6507 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+
+2023-06-22 10:54:47.6507 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+
+2023-06-22 10:54:47.6507 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+2023-06-22 10:54:47.6682 INFO Executed action MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API) in 6551.4845ms
+
+2023-06-22 10:54:47.6682 INFO Executed endpoint 'MultiLLibray.API.Controllers.AuthController.Login (MultiLLibray.API)'
+
+2023-06-22 10:54:47.6682 DEBUG 'ApplicationDbContext' disposed.
+
+2023-06-22 10:54:47.6682 DEBUG Disposing connection to database 'MultiLibray' on server '.'.
+
+2023-06-22 10:54:47.6682 DEBUG Disposed connection to database '' on server '' (2ms).
+
+2023-06-22 10:54:47.6682 INFO Request finished HTTP/2 POST https://localhost:7211/api/Auth/login application/json 45 - 200 - application/json;+charset=utf-8 6682.7763ms
+

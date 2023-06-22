@@ -5331,11 +5331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TrialProjects\\MultiLibrary\\MultiLLibray.API\\MultiLLibray.API\\MultiLLibray.API.csproj",
+      "projectUniqueName": "D:\\TrialProjects\\MultiLibrary\\yedek\\MultiLLibray.API\\MultiLLibray.API\\MultiLLibray.API.csproj",
       "projectName": "MultiLLibray.API",
-      "projectPath": "D:\\TrialProjects\\MultiLibrary\\MultiLLibray.API\\MultiLLibray.API\\MultiLLibray.API.csproj",
+      "projectPath": "D:\\TrialProjects\\MultiLibrary\\yedek\\MultiLLibray.API\\MultiLLibray.API\\MultiLLibray.API.csproj",
       "packagesPath": "C:\\Users\\yigittanyel\\.nuget\\packages\\",
-      "outputPath": "D:\\TrialProjects\\MultiLibrary\\MultiLLibray.API\\MultiLLibray.API\\obj\\",
+      "outputPath": "D:\\TrialProjects\\MultiLibrary\\yedek\\MultiLLibray.API\\MultiLLibray.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yigittanyel\\AppData\\Roaming\\NuGet\\NuGet.Config",
